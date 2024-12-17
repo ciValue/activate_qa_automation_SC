@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;login-user-with-incorrect-email-and-password",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login user with incorrect email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to automation exercise website",
+            "result": {
+              "status": "passed",
+              "duration": 3431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I enter incorrect login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 5859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should not be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "description": "--Scenario: Login user with different profiles\n--Given I navigate to supply chain application\n--When I enter  login credentials\n--Then I should  be logged in",
+    "keyword": "Feature",
+    "name": "DataExporter",
+    "line": 1,
+    "id": "dataexporter",
+    "tags": [],
+    "uri": "DataExporter.feature",
+    "elements": [
+      {
+        "id": "dataexporter;run-data-exporter-with-default-selection-for-aggregrated-view-and-verify-it-runs-successfully",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Run data exporter with default selection for aggregrated view and verify it runs successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the application is open",
+            "result": {
+              "status": "passed",
+              "duration": 18619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I navigate to the Data Exporter section",
+            "result": {
+              "status": "passed",
+              "duration": 25400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I run the report with default selection for aggregrated view",
+            "result": {
+              "status": "passed",
+              "duration": 10465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the report should run successfully for aggregrated view",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dataexporter;run-data-exporter-with-default-selection-for-multiperiod-view-and-verify-it-runs-successfully",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Run data exporter with default selection for multiperiod view and verify it runs successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the application is open",
+            "result": {
+              "status": "passed",
+              "duration": 18309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I navigate to the Data Exporter section",
+            "result": {
+              "status": "passed",
+              "duration": 25528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I run the report with default selection for multiperiod view",
+            "result": {
+              "status": "passed",
+              "duration": 10957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the report should run successfully for multiperiod view",
+            "result": {
+              "status": "passed",
+              "duration": 531000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

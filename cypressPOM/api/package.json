@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "GOA API",
+  "main": "index.js",
+  "scripts": {
+    "api:test": "cypress run",
+    "sandeep": "cypress open",
+    "cypressdash": "npx cypress run --record --key bf63e220-af5d-41f7-ba2b-2cc736d48aad"
+
+  },
+  "author": "Sandeep",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.10.0",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-plugin-api": "^2.11.0"
+  }
+}

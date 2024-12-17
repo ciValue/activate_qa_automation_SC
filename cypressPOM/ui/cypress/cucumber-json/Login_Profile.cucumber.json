@@ -1,0 +1,62 @@
+[
+  {
+    "description": "--Scenario: Login user with different profiles\n--Given I navigate to supply chain application\n--When I enter  login credentials\n--Then I should  be logged in",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login_Profile.feature",
+    "elements": [
+      {
+        "id": "login;login-with-different-profile",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login with different profile",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          },
+          {
+            "name": "@regression",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to supply chain application",
+            "result": {
+              "status": "passed",
+              "duration": 1769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with  Admin Role",
+            "result": {
+              "status": "failed",
+              "duration": 42592000000,
+              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `//div[text()='Admin Role']`, but never found it.\n    at supplyChain.localLogin (cypress/PageObjects/supplyChain_Page.js:131:7)\n    at Context.eval (cypress/integration/bdd-cucumber/Login/Login.js:47:11)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should  be logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
